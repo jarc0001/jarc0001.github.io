@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
 	font-size: 32px;
-	background-color:lightskyblue;
+	background-color:white;
 }
 
 a {
@@ -9,44 +9,65 @@ a {
 }
 
 div {
-	color:orange;
+	color:darkslategray;
 }
 
 div.intro {
 	text-align:center;
 	font-style:italic;
+	font-size:15px;
+}
+
+@font-face {
+    font-family:'infi-regular';
+    src: url('fonts/infini-regular.otf');
 }
 
 div.name {
-	color:darkmagenta;
-	font-size:100px;
-	text-align:center;
-	font-style:oblique;
+    font-size:300px;
+	color:burlywood;
+    text-align:center;
+    font-family:'infi-regular';
 }
 
 div.project1 {
 	width:300px;
-	height:150px;
-	background-color:palegreen;
-	color:darkolivegreen;
-	font-family:helvetica;
+	height:80px;
+	background-color:darkolivegreen;
+	color:bisque;
+	font-family:georgia;
 	display:inline-block;
 	padding:10px;
 	text-align:center;
 	vertical-align:top;
 	margin-left:10px;
+	font-size:25px;
 
 }
 
 div.project2 {
 	width:300px;
-	height:150px;
-	background-color:paleturquoise;
+	height:80px;
+	background-color:bisque;
 	color:darkolivegreen;
-	font-family:helvetica;
+	font-family:georgia;
 	display:inline-block;
 	padding:10px;
 	margin-left:800px;
 	text-align:center;
-}
+	font-size:25px;
 
+}
+div.about {
+	width:300px;
+	height:80px;
+	background-color:darkolivegreen;
+	color:bisque;
+	font-family:georgia;
+	display:inline-block;
+	padding:10px;
+	margin-left:600px;
+	margin-bottom:100px;
+	text-align:center;
+	font-size:25px;
+}

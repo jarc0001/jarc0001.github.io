@@ -1,0 +1,268 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+	background-color: white;
+}
+
+a {
+	color:blue;
+}
+
+@font-face {
+	font-family:'youngserif-regular';
+	src: url('fonts/YoungSerif-Regular.otf');
+}
+
+.p2 {
+	font-family:'karla-regular';
+	src: url('fonts/Karla-Regular.otf');
+}
+
+.p3 {
+	font-family:'wombscript-linear';
+	src: url('fonts/WombScript-Linear.otf');
+}
+
+div.title {
+	font-size:150px;
+	text-align:center;
+	padding:100px;
+	font-family:'youngserif-regular';
+	color:white;
+	position:fixed;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+}
+
+div.button {
+	margin-top: 50px;
+	text-align:center;
+	padding:400px;
+	position:fixed;
+  }
+  
+  div.button a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+  
+  
+  div.letsgetdressed {
+	  font-family: 'youngserif-regular';
+	  color: blue;
+	  font-size:80px;
+	  text-align: center;
+	  padding: 35px;
+  }
+
+
+  
+  .paris-airport {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%; 
+	z-index: -1;
+	overflow: hidden;
+  }
+  .paris-airport {
+	/* Make video to at least 100% wide and tall */
+	min-width: 100%; 
+	min-height: 100%; 
+  
+	/* Setting width & height to auto prevents the browser from stretching or squishing the video */
+	width: auto;
+	height: auto;
+  
+	/* Center the video */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+  }
+
+  
+  div.clothes {
+text-align: center;
+font-family:'karla-regular';
+color:blue;
+font-size:30px;
+  }
+
+  div.stripedshirt {
+	float: right;
+	padding-right:250px;
+	margin-right: 0px 0px 0px 30px;
+  }
+
+
+
+div.beret {
+	padding-left: 250px;
+	padding-top:50px;
+}
+
+div.foodtitle {
+	font-family: 'youngserif-regular';
+	color: blue;
+	font-size:80px;
+	text-align: center;
+	padding: 35px;
+}
+div.foodbodytext {
+	text-align: center;
+	font-family:'karla-regular';
+	color:blue;
+	font-size:30px;
+	  }
+
+
+div.baguette {
+	padding-left: 250px;
+	padding-top:50px;	
+}
+
+div.croissant {
+	float: right;
+	padding-right:250px;
+	margin-right: 0px 0px 0px 30px;
+  }
+
+  div.alldressed {
+	text-align: center;
+	font-family:'karla-regular';
+	color:blue;
+	font-size:50px;
+	padding-top:250px;
+	  }
+
+	  div.allfull {
+		text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:50px;
+		padding-top:30px;
+		  }
+
+
+div.lourvebutton {
+	font-family: 'youngserif-regular';
+	color: blue;
+	font-size:80px;
+	text-align: center;
+	padding: 35px;
+}
+
+div.lourvemap {
+	float: center;
+	padding-left: 400px;
+	padding-top: 200px;
+}
+
+div.art {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:50px;
+		padding-top:30px;
+}
+
+div.monalisachoice {
+	text-align: left;
+		font-family:'karla-regular';
+		color:black;
+		font-size:25px;
+		padding-left:400px;
+		padding-top:10px;
+}
+
+div.weddingchoice {
+	text-align: right;
+		font-family:'karla-regular';
+		color:black;
+		font-size:25px;
+		padding-right:400px;
+		padding-top:10px;
+}
+
+div.monalisa {
+	padding-left: 300px;
+	padding-top: 100px;
+	float: center;
+}
+
+div.dizzy {
+	text-align: center;
+		font-family:'karla-regular';
+		color:blue;
+		font-size:40px;
+		padding-top:400px;
+		padding-bottom:400px;
+}
+
+div.retailtherapy {
+	font-family: 'youngserif-regular';
+	color: blue;
+	font-size:80px;
+	text-align: center;
+	padding: 35px;
+}
+div.lesmarais {
+	margin-top: 50px;
+	text-align:left;
+	padding:400px;
+	position:fixed;
+  }
+  
+  div.lesmarais a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.bike {
+	margin-top: 50px;
+	text-align:left;
+	padding:200px;
+	position:fixed;
+  }
+  
+  div.bike a {
+	border: 1px solid blue;
+	padding: 30px;
+	border-radius: 50%;
+	font-family: 'karla-regular';
+	text-decoration: none;
+	font-size: 40px;
+	color: blue;
+  }
+
+  div.salesassistant {
+	font-family: 'youngserif-regular';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-top:350px;
+	padding-left:30px;
+	padding-right:30px;
+	-webkit-text-stroke: black;
+	-webkit-text-stroke-width: 1px;
+  }
+
+  div.anxiety {
+	font-family: 'wombscript-linear';
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	padding-bottom:400px;
+  }
