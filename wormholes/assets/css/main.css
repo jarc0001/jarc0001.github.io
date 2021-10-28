@@ -368,7 +368,8 @@ div.lesmarais {
   div.luxembourg {
 	margin-top: 50px;
 	text-align:center;
-	padding:400px;
+	padding:300px;
+	padding-left:600px;
 	position:fixed;
   }
   
@@ -385,7 +386,8 @@ div.lesmarais {
   div.secretgarden {
 	margin-top: 50px;
 	text-align:center;
-	padding:200px;
+	padding:100px;
+	padding-left: 400px;
 	position:fixed;
   }
   
@@ -489,6 +491,10 @@ div.lesmarais {
 	color:blue;
   }
 
+  .ohno a {
+	  text-decoration: none;
+  }
+
   div.diagnosis {
 	font-family: 'youngserif-regular';
 	font-size: 100px;
@@ -496,6 +502,7 @@ div.lesmarais {
 	text-align: center;
 	padding-left:30px;
 	padding-right:30px;
+	padding-top:60px;
 	-webkit-text-stroke: black;
 	-webkit-text-stroke-width: 1px;
   }
@@ -646,9 +653,10 @@ div.next {
 div.faint {
 	font-family:'karla-regular';
 	text-align: right;
-	padding-right:20px;
+	padding-right:120px;
 	color:white;
 	font-size: 15px;
+	padding-bottom:10px;
 }	
 
 .faint a {

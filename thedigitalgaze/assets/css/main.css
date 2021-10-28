@@ -1,0 +1,57 @@
+body {
+	font-family: helvetica;
+	font-size: 32px;
+}
+
+a {
+	color:black;
+}
+
+body {
+	background-color: black;
+}
+
+div.logo {
+	position: fixed;
+width: 100%;
+z-index: 10;
+}
+
+div.button {
+    text-align:center;
+    padding-top: 500px;
+  }
+  
+  div.button a {
+    border: 1px solid #c27a9d;
+    padding: 30px;
+    border-radius: 50%;
+    font-family: 'helvetica';
+    text-decoration: none;
+    font-size: 20px;
+    color: #c27a9d;
+  }
+
+  .container {
+display:flex;
+flex-wrap:wrap;
+  }
+
+  .item {
+    color: #c27a9d;
+    font-family: 'helvetica';
+    font-size: 20px;
+  }
+
+  .articleone {
+padding-right:20px;
+padding-left:20px;
+padding-top: 300px;
+width:300px;
+  }
+
+  .articletwo {
+padding-left:300px;
+padding-top:400px;
+width:500px;
+  }
