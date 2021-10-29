@@ -89,10 +89,10 @@ div.articlefour {
 	font-family:'drukbold';
 	background-color:yellow;
 	white-space: nowrap;
-	overflow: hidden;
-	position: absolute;
 	font-size:40px;
 	top:10px;
+	position: relative;
+  overflow: hidden;
   }
   
   .marquee span {
