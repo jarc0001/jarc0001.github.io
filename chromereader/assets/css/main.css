@@ -101,9 +101,6 @@ div.articlefour {
 	animation: marquee 20s infinite;
   }
   
-  .marquee2 span {
-	animation-delay: 0s;
-  }
   
   @keyframes marquee {
 	0% {
